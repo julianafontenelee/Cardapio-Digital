@@ -46,6 +46,10 @@ h1{
     text-transform: uppercase ;
 }
 
+h3{
+    color: var(--corbotoesh2texto);
+    text-align: center;
+}
 .imagemproduto{
     width: 400px;
 }
@@ -53,18 +57,16 @@ h1{
 .boxproduto{
     background-color: rgba(37, 37, 37, 0.8);
     width: 850px;
-    margin: auto;
+    margin:0 auto 20px;
     border-radius: var(--arredondamentobordas);
-    vertical-align: center;
     display: flex;
-    /*para alinha e deixar centralizado junto com display flex*/
-    align-items: center;
     text-align: justify;
 }
 
 .boximagem , .boxtexto{
-    display: inline-block;
-    vertical-align: middle;
+   display: flex;
+    flex-direction: column;
+   
 }
 
 .boxtexto{
@@ -86,5 +88,9 @@ button{
     width: 150px;
     /*maozinha cursor */
     cursor: pointer;
+    
 }
+
+
+
 
